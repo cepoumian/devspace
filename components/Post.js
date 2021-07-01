@@ -3,7 +3,6 @@ import Image from 'next/image'
 import CategoryLabel from './CategoryLabel'
 
 export default function Post({ post }) {
-  console.log(post.frontmatter.category)
   return (
     <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
       <Image
