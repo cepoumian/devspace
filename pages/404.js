@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Layout from '../components/Layout'
+import Layout from '@/components/Layout'
 
 export default function NotFoundPage() {
   return (
@@ -8,6 +8,7 @@ export default function NotFoundPage() {
       <div className='flex flex-col items-center mt-20'>
         <Image
           src='/images/logo.png'
+          alt='logo'
           width={70}
           height={70}
           className='bg-gray-800 rounded-2xl'
